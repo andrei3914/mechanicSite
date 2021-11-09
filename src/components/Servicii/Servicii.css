@@ -1,5 +1,6 @@
 .dimensiuniServicii {
 	height: 800px;
+	overflow: auto;
 }
 
 .container {

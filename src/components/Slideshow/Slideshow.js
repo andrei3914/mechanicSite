@@ -17,16 +17,16 @@ export default function Slideshow() {
       <Fade>
         <div className="each-fade">
 
-          <img className="bg" src={fadeImages[0]} />
+          <img className="bg" alt="poza1" src={fadeImages[0]} />
         </div>
         <div className="each-fade">
-          <img className="bg" src={fadeImages[1]} />
+          <img className="bg" alt="poza2" src={fadeImages[1]} />
         </div>
         <div className="each-fade">
-          <img className="bg" src={fadeImages[2]} />
+          <img className="bg" alt="poza3" src={fadeImages[2]} />
         </div>
         <div className="each-fade">
-          <img className="bg" src={fadeImages[3]} />
+          <img className="bg" alt="poza4" src={fadeImages[3]} />
         </div>
       </Fade>
     </div>

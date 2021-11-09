@@ -3,7 +3,9 @@ import './Navigation.css';
 
 const Navigation = ( {setRoute} ) => {
 	return (
-		<nav className="stilNav">
+		<nav className="stilNav">			
+		
+			<p className="typeClasa f3 link dim black pa2">The Mechanic</p>				
 			<a href="#getMeHome">
 				<p className="f3 link dim black pa2 pointer stilButNav" onClick={() => setRoute('home')}> Acasa </p></a>
 			<a href="#serviciiFrate">
@@ -12,6 +14,7 @@ const Navigation = ( {setRoute} ) => {
 				className="f3 link dim black pa2 pointer stilButNav" onClick={() => setRoute('piese')}> Piese auto </p>
 			<a href="#whoWeAre">
 				<p className="f3 link dim black pa2 pointer stilButNav"> Contact </p></a>
+		
 		</nav>
 	)
 }

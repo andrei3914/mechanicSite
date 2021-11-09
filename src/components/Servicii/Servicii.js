@@ -7,24 +7,24 @@ const Servicii = () => {
 			<h1 className="f2 pa3"> Servicii </h1>
 			<div className="container">
 				
-				<div class="card center">
-					<div class="card-content">
-						<h2 class="card-title"> Probleme turbine </h2>
+				<div className="card center">
+					<div className="card-content">
+						<h2 className="card-title"> Probleme turbine </h2>
 					</div>
 				</div>
-				<div class="card center imagine1">
-					<div class="card-content">
-						<h2 class="card-title"> Probleme injectoare </h2>
+				<div className="card center imagine1">
+					<div className="card-content">
+						<h2 className="card-title"> Probleme injectoare </h2>
 					</div>
 				</div>
-				<div class="card center imagine2">
-					<div class="card-content">
-						<h2 class="card-title"> Pompe de injectie </h2>
+				<div className="card center imagine2">
+					<div className="card-content">
+						<h2 className="card-title"> Pompe de injectie </h2>
 					</div>
 				</div>
-				<div class="card center imagine3">
-					<div class="card-content">
-						<h2 class="card-title"> Schimburi consumabile </h2>
+				<div className="card center imagine3">
+					<div className="card-content">
+						<h2 className="card-title"> Schimburi consumabile </h2>
 					</div>
 				</div>
 			</div>

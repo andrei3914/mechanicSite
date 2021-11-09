@@ -3,9 +3,20 @@
 	margin: 0;
 	bottom: 0px;
 	padding: 1px;
-
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	color: #9CA1A9;
+}
+
+.stilHarta {
+	width: 350px;
+	height: 250px;
+	border: 0;
+	padding-bottom: 3px;
+	margin: 10px;
+}
+
+.stilAranjare {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 40px;
 }

@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Navigation from './components/Navigation/Navigation';
+import Servicii from './components/Servicii/Servicii';
+import Contact from './components/Contact/Contact';
+import Piese from './components/Piese/Piese';
+import Slideshow from './components/Slideshow/Slideshow';
 import './App.css';
+import Particles from 'react-tsparticles';
+import ParticleOptions from './components/Misc/ParticleOptions';
 
 function App() {
+  const [route, setRoute] = useState('home');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Particles params={ParticleOptions} />
+     <Navigation setRoute={setRoute}/>
+    { route === 'home'
+    ? <div>
+       <Slideshow />
+       <Servicii />
+       <Contact />
+      </div>
+    :
+      <div>
+        <Piese />
+      </div>
+    }
     </div>
   );
 }

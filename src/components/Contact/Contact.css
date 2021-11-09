@@ -1,0 +1,11 @@
+.stilFooter {
+	background-color: #36393E;
+	margin: 0;
+	bottom: 0px;
+	padding: 1px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #9CA1A9;
+}

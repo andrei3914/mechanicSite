@@ -1,0 +1,9 @@
+.stilNav {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #E00000;
+}
+
+a {
+	text-decoration: none;
+}

@@ -1,0 +1,9 @@
+.bg {
+	width: 75%;
+	height: 800px;
+	z-index: 0;
+}
+
+.transformataFourier {
+	transform: translateY(300px);
+}

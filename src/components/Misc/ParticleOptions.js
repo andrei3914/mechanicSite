@@ -1,3 +1,5 @@
+import poza1 from './turbo-engine.png';
+import poza2 from './piston.png';
 
 const ParticleOptions = {
 	fpsLimit: 60,
@@ -59,8 +61,32 @@ const ParticleOptions = {
             value: 0.8,
           },
           shape: {
-            type: "character",
+            type: [ 
+            	"character",
+            	"image",
+            ],
+
             options: {
+            	image: [{
+            		src: poza1,
+            		width: 32,
+            		height: 32,
+            		particles: {
+            			size: {
+            				value:16
+            			}
+            		}
+            	},
+            	{
+            		src: poza2,
+            		width: 32,
+            		height: 32,
+            		particles: {
+            			size: {
+            				value:16
+            			}
+            		}
+            	}],
             	character: [{
             		fill: true,
 		            font: "Verdana",

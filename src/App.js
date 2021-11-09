@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-     <Particles params={ParticleOptions} />
+     <Particles className="particles" params={ParticleOptions} />
      <Navigation setRoute={setRoute}/>
     { route === 'home'
     ? <div>

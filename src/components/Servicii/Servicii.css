@@ -1,3 +1,113 @@
 .dimensiuniServicii {
 	height: 800px;
 }
+
+.container {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.card {
+	color: white;
+	background-image: url(https://www.garrettmotion.com/wp-content/uploads/2020/07/20C0173_012-1.jpg);
+	background-size: cover;
+	padding: 10rem 5rem 5rem;
+	max-width: 35ch;
+	border-radius: 0.5rem;
+	overflow: hidden;
+
+	transition: transform 500ms ease;
+}
+
+.card:hover {
+	transform: scale(1.03);
+}
+
+.card-content {
+	--pading: 1.5rem;
+	padding: var(--padding);
+}
+
+.card-title {
+	position: relative;
+	width: max-content;
+	background-color: rgba(255,0,0,0.6);
+}
+
+.card-title::after {
+	content: "";
+	position: absolute;
+	height: 3px;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	background: red;
+
+	transform-origin: left;
+	transition: transform 500ms ease;
+}
+
+.card:hover .card-title::after {
+	transform:  scaleX(1);
+}
+
+@media (hover) {
+	.card-content {
+		transform: translateY(65%);
+		transition: transform 500ms ease;
+	}
+
+	.card-content > * {
+	opacity: 0;
+	transition: opacity 500ms linear;
+	}
+
+	.card:hover .card-content {
+		transform: translateY(-100%);
+		transition-delay: 500ms;
+	}
+
+	.card:hover .card-content > * {
+		opacity: 1;
+		transition-delay: 500ms;
+	}
+
+	.card-title::after {
+		transform:  scaleX(0);
+	}
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms
+		!important;
+		animation-iteration-count: 1
+		!important;
+		transition-duration: 0.01ms
+		!important;
+		scroll-behavior: auto !important;
+	}
+}
+
+.imagine1 {
+	background-image: url(https://blog.autovit.ro/wp-content/uploads/2020/09/injectoare_138480308.jpg);
+}
+
+.imagine2 {
+	background-image: url(https://cdn3.volusion.com/hkdxf.uqnsa/v/vspfiles/photos/4521-M67T-2.jpg?v-cache=1587732235);
+}
+
+.imagine3 {
+	background-image: url(https://www.ridetime.ca/wp-content/uploads/2018/04/shutterstock_590265665.jpg);
+}

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mechanicSite/static/css/main.d06296fd.chunk.css",
-    "main.js": "/mechanicSite/static/js/main.b1d8531c.chunk.js",
-    "main.js.map": "/mechanicSite/static/js/main.b1d8531c.chunk.js.map",
+    "main.css": "/mechanicSite/static/css/main.0da55ea1.chunk.css",
+    "main.js": "/mechanicSite/static/js/main.f90a05f6.chunk.js",
+    "main.js.map": "/mechanicSite/static/js/main.f90a05f6.chunk.js.map",
     "runtime-main.js": "/mechanicSite/static/js/runtime-main.49d7a4bf.js",
     "runtime-main.js.map": "/mechanicSite/static/js/runtime-main.49d7a4bf.js.map",
     "static/css/2.035e1b90.chunk.css": "/mechanicSite/static/css/2.035e1b90.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.95c261cf.chunk.js.map": "/mechanicSite/static/js/3.95c261cf.chunk.js.map",
     "index.html": "/mechanicSite/index.html",
     "static/css/2.035e1b90.chunk.css.map": "/mechanicSite/static/css/2.035e1b90.chunk.css.map",
-    "static/css/main.d06296fd.chunk.css.map": "/mechanicSite/static/css/main.d06296fd.chunk.css.map",
+    "static/css/main.0da55ea1.chunk.css.map": "/mechanicSite/static/css/main.0da55ea1.chunk.css.map",
     "static/js/2.fc08d13e.chunk.js.LICENSE.txt": "/mechanicSite/static/js/2.fc08d13e.chunk.js.LICENSE.txt",
     "static/media/piston.e44f7855.png": "/mechanicSite/static/media/piston.e44f7855.png",
     "static/media/turbo-engine.849fb84d.png": "/mechanicSite/static/media/turbo-engine.849fb84d.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.49d7a4bf.js",
     "static/css/2.035e1b90.chunk.css",
     "static/js/2.fc08d13e.chunk.js",
-    "static/css/main.d06296fd.chunk.css",
-    "static/js/main.b1d8531c.chunk.js"
+    "static/css/main.0da55ea1.chunk.css",
+    "static/js/main.f90a05f6.chunk.js"
   ]
 }

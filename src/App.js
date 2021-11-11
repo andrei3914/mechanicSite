@@ -12,11 +12,17 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   const [route, setRoute] = useState('home');
+  
+  const inPiese = () => {
+    let isInPiese = false;
+    route === 'home' ? isInPiese = false : isInPiese = true;
+    return isInPiese; 
+  }
 
   return (
     <div className="App">
      <Particles className="particles" params={ParticleOptions} />
-     <Navigation setRoute={setRoute}/>
+     <Navigation setRoute={setRoute} inPiese={inPiese}/>
     { route === 'home'
     ? <div>
        <Slideshow />

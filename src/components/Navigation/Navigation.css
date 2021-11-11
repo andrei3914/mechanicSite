@@ -10,6 +10,13 @@
 	overflow: auto;
 }
 
+.stilDivInterior {
+	display: flex;
+	justify-content: flex-end;
+	background-color: rgba(224,0,0,1);
+	overflow: auto;
+}
+
 a {
 	text-decoration: none;
 }

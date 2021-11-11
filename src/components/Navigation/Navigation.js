@@ -6,8 +6,7 @@ const Navigation = ( {setRoute, inPiese} ) => {
 		<nav className="stilNav">			
 			{inPiese() === false ?		
 			<div className="stilDivInterior">
-				<a href="#getMeHome">
-					<p className="f3 link dim black pa2 pointer stilButNav" onClick={() => setRoute('home')}> Acasa </p></a>
+				<p className="typeClasa f3 link dim black pa2 center">The Mechanic</p>
 				<a href="#serviciiFrate">
 					<p className="f3 link dim black pa2 pointer stilButNav"> Servicii </p></a>
 				<p 

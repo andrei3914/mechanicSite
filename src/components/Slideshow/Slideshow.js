@@ -14,9 +14,6 @@ const fadeImages = [
 export default function Slideshow() {
   return (
     <div className="slide-container">
-   
-     {/* In caz ca vrei sa pui titlul, arata naspa pe mobile -mai trebuie muncit acolo!
-      <div className="titluStil"> <p><p className="typeClasa f1 link dim white pa2 center">The Mechanic</p>  </p> </div> */}
       <Fade>
         <div className="each-fade">
 

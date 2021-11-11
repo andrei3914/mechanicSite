@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mechanicSite/static/css/main.0da55ea1.chunk.css",
-    "main.js": "/mechanicSite/static/js/main.f90a05f6.chunk.js",
-    "main.js.map": "/mechanicSite/static/js/main.f90a05f6.chunk.js.map",
+    "main.js": "/mechanicSite/static/js/main.6ffda1cc.chunk.js",
+    "main.js.map": "/mechanicSite/static/js/main.6ffda1cc.chunk.js.map",
     "runtime-main.js": "/mechanicSite/static/js/runtime-main.49d7a4bf.js",
     "runtime-main.js.map": "/mechanicSite/static/js/runtime-main.49d7a4bf.js.map",
     "static/css/2.035e1b90.chunk.css": "/mechanicSite/static/css/2.035e1b90.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.035e1b90.chunk.css",
     "static/js/2.fc08d13e.chunk.js",
     "static/css/main.0da55ea1.chunk.css",
-    "static/js/main.f90a05f6.chunk.js"
+    "static/js/main.6ffda1cc.chunk.js"
   ]
 }

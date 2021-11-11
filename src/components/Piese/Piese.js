@@ -3,7 +3,7 @@ import React from 'react';
 const Piese = () => {
 	return (
 		<div>
-			 <p> Noi </p>
+			 <p className="f2 pa3"> Noi </p>
 			 <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
 			 	<p> turbine </p>
 			 	<br />
@@ -20,7 +20,7 @@ const Piese = () => {
 			 	<p> pompe injectie </p>
 			 	<br />
 			 </div>
-			 <p> Second </p>
+			 <p className="f2 pa3"> Second </p>
 			 <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
 			 	<p> turbine </p>
 			 	<br />

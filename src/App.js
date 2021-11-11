@@ -4,9 +4,11 @@ import Servicii from './components/Servicii/Servicii';
 import Contact from './components/Contact/Contact';
 import Piese from './components/Piese/Piese';
 import Slideshow from './components/Slideshow/Slideshow';
+
 import './App.css';
 import Particles from 'react-tsparticles';
 import ParticleOptions from './components/Misc/ParticleOptions';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [route, setRoute] = useState('home');
@@ -20,12 +22,14 @@ function App() {
        <Slideshow />
        <Servicii />
        <Contact />
+       <Footer />
       </div>
     :
       <div>
         <Piese />
       </div>
     }
+
     </div>
   );
 }
